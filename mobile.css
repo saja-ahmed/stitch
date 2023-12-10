@@ -1,0 +1,286 @@
+@media (min-width: 500px) and (max-width: 1216px) {
+    .sec1 {
+        height: 1200px;
+    }
+    .sec1 .header .navigation .logo  {
+        width: 200px;
+    }
+    .sec1 .header .navigation .logo  h1 {
+        font-size: 22px;
+    }
+    .sec1 .left-header{
+        display: none;
+    }
+    .sec1 .header .navigation .menu {
+        width: 60%;
+        overflow: hidden;
+    }
+    .sec1 .header .navigation .menu ul li a {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .sec1 .header .navigation .menu ul li .accessories {
+        display: none;
+    }
+    .sec1-container .electric-skateboard .title h1 {
+        font-size: 59px;
+        text-align: center;
+    }
+    .sec1-container {
+        height: 80%;
+        flex-direction: column;
+        padding: 60px 0 0 0;
+    }
+    .sec1-container .electric-skateboard {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 700px;
+        width: 100%;
+    }
+    .sec1-container .electric-skateboard .decoration {
+        width: 90px;
+        left: 32%;
+        top: 5%;
+    }
+    .sec1-container .electric-skateboard .title  {
+        z-index: 3;
+    }
+    .description {
+        width: 90%;
+        height: 180px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    .description .text {
+        width: 100%;
+        height: 90px;
+        padding: 0px 0 49px 0;
+        text-align: center;
+    }
+    .description .price {
+        justify-content: flex-start;
+        background-color: rgba(255, 255, 255, 0.61);
+        font-size: 25px;
+    }
+    .electric-skateboard .bottom {
+        margin-top: -60px;
+    }
+    .electric-skateboard .bottom .button {
+        width: 50%;
+        padding: 19px 7px;
+        font-size: 18px;
+    }
+    .icon-video i {
+        padding: 25.4px 24px 21.7px 28.5px;
+    }
+    .video-icon {
+        width: 57%;
+    }
+    .video-icon h4 {
+        font-size: 17px;
+    }
+    #video-open:checked ~ .video {
+        width: 150px;
+        height: 150px;
+        left: 8%;
+        top: 13%;
+    }
+    .sec1-container .image {
+        width: 100%;
+        height: 515px;
+        align-items: flex-end;
+    }
+    .sec1-container .image .circle {
+        width: 270px;
+        height: 270px;
+        border: 40px solid transparent;
+        flex-direction: column;
+    }
+    .hand-skate {
+        width: 150px;
+        transform: translate(193px, -209px);
+        opacity: 1;
+        left: -123px;
+        top: 65px;
+    }
+    .battery {
+        width: 60px;
+        transform: translateX(350px);
+        opacity: 1;
+        top: -91px;
+        left: -222px;
+    }
+    .sec1-container .image .circle .skate {
+        width: 325px;
+        transform: rotate(1deg);
+        top: 50px;
+        left: -80px;
+    }
+    .battery1 {
+        top: -15px;
+        left: 9px;
+        width: 70px;
+        height: 70px;
+    }
+    .sec1-container .battery-duration {
+        position: absolute;
+        width: 210px;
+        height: 78px;
+        right: -70px;
+        top: 160px;
+    }
+    .sec1-container .battery-duration .text h3 {
+        font-size: 15px;
+    }
+    .sec1-container .battery-duration h4 {
+        font-size: 12px;
+    }
+    .sec1-container .battery-duration img {
+        width: 70px;
+    }
+    .sec2 {
+        height: 550px;
+        display: flex;
+        align-items: center;
+    }
+    .sec2-container {
+        border-radius: 30px;
+    }
+    .sec2-container .slant {
+        display: none;
+    }
+    .sec2-container .skate-back {
+        width: 80px;
+        top: -12%;
+        left: 8%;
+    }
+    .sec2-container .backlight {
+        left: 60%;
+        top: 15%;
+        width: 130px;
+    }
+    .sec2-container .forward{
+        left: 10px;
+        top: 70%;
+    }
+    .backlight-text {
+        left: 66%;
+        top: 6%;
+    }
+    .sec2-container .wifi-icon {
+        top: 57%;
+        left: 57%;
+    }
+    .sec2-container .arrow {
+        top: 7%;
+        left: 42%;
+        width: 50px;
+        transform: rotate(-35deg);
+    }
+    .sec2-container .hand {
+        top: 60%;
+        width: 110px;
+    }
+    .hand2 {
+        top:90%;
+        left: 80%;
+    }
+    .sec2-container .title {
+        font-size: 17px;
+        top: 40%;
+        left: 40%;
+    }
+    .sec2-container .curve-left {
+        position: absolute;
+        top: -27%;
+        left: 19%;
+        width: 31px;
+        transform: rotate(50deg);
+    }
+    .sec2-container .curve-center {
+        position: absolute;
+        top: -32%;
+        left: 29%;
+        width: 56px;
+        transform: rotate(6deg);
+    }
+    .sec2-container .curve-right {
+        position: absolute;
+        top: -23%;
+        left: 32%;
+        width: 29px;
+    }
+    .sec3 {
+        height: 2084px;
+    }
+    .sec3-container {
+        height: 100%;
+    }
+    .sec3-container .product .product-container {
+        width: 90%;
+        height: 58%;
+    }
+    .sec3-container .product .product-container .caption {
+        width: 100%;
+        height: 58%;
+    }
+    .sec3-container .product {
+        flex-direction: column;
+        align-items: center;
+        height: 75%;
+    }
+    .sec3-container .product .small-image {
+        width: 79px;
+        height: 71px;
+    }
+    .sec3-container .product .main-image {
+        width: 205px;
+        height: 205px;
+    }
+    .sec3-container .row .description {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec3-container .row {
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .sec3-container .row .description {
+        width: 100%;
+        text-align: center;
+        font-size: 9px;
+    }
+    .sec3-container .row .title {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sec3-container .product-container .images-container .main-image3 img {
+        width: 48%;
+    }
+    .sec3-container .product .images-container {
+        justify-content: center;
+    }
+
+    #aSide {
+        height:660px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    #aSide model-viewer {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        margin: 0 auto;
+        border: none;
+        z-index: 9999;
+    }
+}
